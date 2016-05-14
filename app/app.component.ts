@@ -2,6 +2,8 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 22 App</h1>'
+    template: '<div><h1>{{pageTitle}}</h1></div>'
 })
-export class AppComponent { }
+export class AppComponent { 
+    pageTitle: string = "MyMegaAPp";
+}
